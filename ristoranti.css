@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .upper a {
@@ -24,6 +25,8 @@ header {
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
+    flex-basis: calc(50% - 10px); 
+    margin-bottom: 10px;
 }
 
 .upper a:hover {
