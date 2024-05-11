@@ -83,6 +83,12 @@ h3 {
     position: relative;
 }
 
+.menu {
+    display: inline-block;
+    width: 80%; 
+    padding-right: 10px; 
+}
+
 .price {
     position: absolute;
     top: 0;

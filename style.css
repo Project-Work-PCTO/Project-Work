@@ -19,7 +19,9 @@ h1 {
 .restaurant-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    
+    margin-left: 2rem;
 }
 
 @media screen and (min-width: 1200px) {
